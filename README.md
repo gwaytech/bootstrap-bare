@@ -10,5 +10,7 @@ This site was created from the [Bare](http://startbootstrap.com/template-overvie
 6/24/2019 - Project start.
 
 ## Copyright and License
+Copyright 2019 GWayTech.  Code released under the MIT license.  See LICENSE file for details.
 
-See LICENSE file.
+### Third party software
+See LICENSE-THIRD-PARTY for details.
