@@ -4,6 +4,7 @@ This site was created from the [Bare](http://startbootstrap.com/template-overvie
 
 ## Status
 [![Build Status](https://semaphoreci.com/api/v1/gwaytech/bootstrap-bare/branches/master/shields_badge.svg)](https://semaphoreci.com/gwaytech/bootstrap-bare)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/gwaytech/bootstrap-bare.svg)
 
 6/24/2019 - Project start.
 
