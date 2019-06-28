@@ -3,7 +3,9 @@
     "name": "gwaytech-bootstrap-bare",
     "version": "1.0.0",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "build": "node_modules/.bin/gulp build",
+        "copy": "node_modules/.bin/gulp copy"
     },
     "description": "Small business web site.",
     "keywords": [

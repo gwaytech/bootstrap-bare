@@ -10,7 +10,7 @@ const merge = require("merge-stream");
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: "./dist"
     },
     port: 3000
   });
@@ -42,6 +42,11 @@ function modules() {
   return merge(bootstrap, jquery);
 }
 
+function copy() {
+  return gulp.src('./index.html')
+    .pipe(gulp.dest('dist/'));
+}
+
 // Watch files
 function watchFiles() {
   gulp.watch("./**/*.css", browserSyncReload);
@@ -59,3 +64,4 @@ exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
+exports.copy = copy;
