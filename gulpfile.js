@@ -43,7 +43,7 @@ function modules() {
 }
 
 function copy() {
-  return gulp.src('./index.html')
+  return gulp.src(['./index.html', 'favicon.ico'])
     .pipe(gulp.dest('dist/'));
 }
 
